@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Mail, Phone, Github } from "lucide-react";
+import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
 export default function Component() {
   return (
@@ -9,18 +9,30 @@ export default function Component() {
         {/* Header */}
         <div className="text-center space-y-1">
           <h1 className="text-2xl font-bold tracking-tight">DANIEL GAVIDIA</h1>
-          <p className="text-muted-foreground flex items-center justify-center gap-4">
+          <p className="text-muted-foreground flex items-center justify-center gap-4 text-sm">
             <span className="flex items-center gap-1">
               <Mail className="h-4 w-4" />
               dgavidia1@gmail.com
             </span>
             <span className="flex items-center gap-1">
               <Phone className="h-4 w-4" />
-              (786) 383-7175
+              +1 (786) 383-7175
             </span>
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1 underline">
               <Github className="h-4 w-4" />
-              github.com/danielgavidia
+              <a href="https://github.com/danielgavidia" target="_blank" rel="noopener noreferrer">
+                github.com/danielgavidia
+              </a>
+            </span>
+            <span className="flex items-center gap-1 underline">
+              <Linkedin className="h-4 w-4" />
+              <a
+                href="https://www.linkedin.com/in/danielgavidia1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/danielgavidia1
+              </a>
             </span>
           </p>
         </div>
@@ -74,7 +86,7 @@ export default function Component() {
                   <h4 className="font-semibold">Backend Engineer (2022-2024)</h4>
                   <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                     <li>
-                      Developed containerized tools for CIS Innovation: Anaplan API, Azure Blob API,
+                      Developed Dockerized tools for CIS Innovation: Anaplan API, Azure Blob API,
                       and Dagster automated workflows
                     </li>
                     <li>
@@ -82,13 +94,13 @@ export default function Component() {
                       colleagues in managing 3000+ accounts
                     </li>
                     <li>
-                      Automated consolidation of Marsh product line data using Python for weekly
-                      leadership reports
+                      Automated consolidation of Marsh product line data using Python and PowerBI
+                      for weekly leadership reports
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold">Finance Associate (2021-2024)</h4>
+                  <h4 className="font-semibold">Finance Associate (2022-2024)</h4>
                   <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                     <li>
                       Led strategic projects in variance tagging automation, ML renewal modeling,
@@ -168,7 +180,8 @@ export default function Component() {
                 <span className="text-muted-foreground">2020-2022</span>
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
-                Full-tuition merit scholarship recipient; Finance Club cabinet
+                Full-tuition merit scholarship recipient; Finance Club cabinet; interned with
+                CloudFactory (presented to C-suite)
               </p>
             </div>
             <div>
@@ -177,7 +190,8 @@ export default function Component() {
                 <span className="text-muted-foreground">2013 - 2017</span>
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
-                Full-tuition merit scholarship recipient
+                Full-tuition merit scholarship recipient; created and produced "Soundstage"
+                (live-music TV show that runs to this day)
               </p>
             </div>
           </div>
