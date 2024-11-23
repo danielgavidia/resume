@@ -190,7 +190,7 @@ export default function Component() {
                 <span className="text-muted-foreground">2013 - 2017</span>
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
-                Full-tuition merit scholarship recipient; created and produced "Soundstage"
+                Full-tuition merit scholarship recipient; created and produced &#34Soundstage&#34
                 (live-music TV show that runs to this day)
               </p>
             </div>
