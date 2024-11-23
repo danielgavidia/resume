@@ -79,7 +79,7 @@ export default function Component() {
             <div>
               <div className="flex justify-between items-start">
                 <h3 className="font-bold">MARSH MCLENNAN</h3>
-                <span className="text-muted-foreground">2021 - 2024</span>
+                <span className="text-muted-foreground">2022 - 2024</span>
               </div>
               <div className="mt-2 space-y-4">
                 <div>
