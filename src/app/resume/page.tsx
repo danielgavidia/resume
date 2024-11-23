@@ -44,8 +44,21 @@ export default function Component() {
                   Enterprise (Jira-style)
                 </li>
                 <li>
-                  Deployed to production with 4 startups: Mixpeek (CV API), Sitepass (IoT security),
-                  Seam (social platform), and Open Book Club (e-commerce)
+                  <div className="mb-2">Deployed to production with NYC startups:</div>
+                  <ul>
+                    <li>
+                      <span className="font-semibold">- Sitepass (IoT security): </span>Built Django
+                      admin dashboard for site access hardware system
+                    </li>
+                    <li>
+                      <span className="font-semibold">- Open Book Club (e-commerce): </span>Built
+                      Twilio customer notification system; deployed on AWS EC2 crontab
+                    </li>
+                    <li>
+                      <span className="font-semibold">- Seam (social platform): </span>Built React
+                      meme generator app for mobile; deployed on App Store
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -117,30 +130,24 @@ export default function Component() {
           <h2 className="text-xl font-bold mb-2">TECH STACK</h2>
           <div className="space-y-1 text-muted-foreground text-sm">
             <p>
-              <span className="font-semibold">Frontend:</span> React, Tailwind CSS, Zustand, Shadcn,
-              Vite, DaisyUI
+              <span className="font-semibold">Frontend:</span> React, Next.js, Tailwind CSS,
+              Zustand, Shadcn, Vite, DaisyUI
             </p>
             <p>
               <span className="font-semibold">Backend:</span> Node.js, Express, FastAPI, Bun,
-              Docker, Dagster, Bash, Crontab, Puppetteer
+              Docker, Django, Dagster, Bash, Crontab, Puppetteer
             </p>
             <p>
-              <span className="font-semibold">Fullstack & Auth:</span> Next.js, Django, Firebase,
-              Clerk, PropelAuth
-            </p>
-            <p>
-              <span className="font-semibold">Database:</span> Redis, PostgreSQL, Prisma, Supabase,
-              Neon
+              <span className="font-semibold">Database & Auth:</span> Redis, PostgreSQL, Prisma,
+              Supabase, Neon, Firebase, Clerk, PropelAuth
             </p>
             <p>
               <span className="font-semibold">Deployment:</span> Hostinger VPS, Render, Railway,
               Vercel, AWS EC2/S3, Github Actions, Nginx
             </p>
             <p>
-              <span className="font-semibold">APIs:</span> Stripe, Twilio, OpenAI, Shopify GraphQL
-            </p>
-            <p>
-              <span className="font-semibold">Testing:</span> Vitest, Storybook, Postman
+              <span className="font-semibold">Testing & APIs:</span> Vitest, Storybook, Postman,
+              Stripe, Twilio, OpenAI, Shopify GraphQL, Discord, Github API
             </p>
             <p>
               <span className="font-semibold">Business Intelligence:</span> PowerBI, QlikSense,
