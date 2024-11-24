@@ -7,7 +7,10 @@ const XNavbar = () => {
       <Link href={"/"} className="flex-1">
         Daniel Gavidia
       </Link>
-      <Link href={`/resume`}>Resume</Link>
+      <div className="flex space-x-4">
+        <Link href={`/portfolio`}>Portfolio</Link>
+        <Link href={`/resume`}>Resume</Link>
+      </div>
     </nav>
   );
 };
