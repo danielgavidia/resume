@@ -19,32 +19,29 @@ const XLink = ({ icon, link }: { icon: IconDefinition; link: string }) => {
 const XAbout = () => {
   return (
     <div className="flex flex-col space-y-4 justify-center max-w-[500px]">
-      {/* Profile picture */}
-      <div className="flex w-full justify-center">
-        <img src={profileImage.src} className="rounded-xl w-40 h-40" />
-      </div>
-
-      {/* Info */}
-      <div className="flex flex-col space-y-4">
-        {/* General info */}
-        <div>
-          <p className="font-bold text-lg pb-2">Daniel Gavidia</p>
-          <p className="font-bold text-sm">Software Development, Finance</p>
-          <p className="font-light text-sm">Brooklyn, NY</p>
+      <div className="md:flex md:flex-row-reverse md:space-x-reverse md:space-x-8 md:space-y-0 space-y-4">
+        <div className="flex justify-center md:w-40">
+          <img src={profileImage.src} className="rounded-xl w-40 h-40" />
         </div>
 
-        {/* Contact info */}
-        <div>
-          {contactData.map((c, key) => (
-            <XLink key={key} icon={c.icon} link={c.link} />
-          ))}
+        <div className="flex flex-col space-y-4 md:flex-1">
+          <div>
+            <p className="font-bold text-lg pb-2">Daniel Gavidia</p>
+            <p className="font-bold text-sm">Software Development, Finance</p>
+            <p className="font-light text-sm">Brooklyn, NY</p>
+          </div>
+
+          <div>
+            {contactData.map((c, key) => (
+              <XLink key={key} icon={c.icon} link={c.link} />
+            ))}
+          </div>
         </div>
-
-        <div className="pb-4 w-full border-b-[0.5px]"></div>
-
-        {/* Blurb */}
-        <div className="text-sm">{blurb}</div>
       </div>
+
+      <div className="pb-4 w-full border-b-[0.5px]"></div>
+
+      <div className="text-sm">{blurb}</div>
     </div>
   );
 };
