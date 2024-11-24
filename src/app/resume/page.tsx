@@ -88,16 +88,16 @@ const Page = () => {
                   <h4 className="font-semibold">Backend Engineer (2022-2024)</h4>
                   <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                     <li>
-                      Developed Dockerized tools for CIS Innovation: Anaplan API, Azure Blob API,
-                      and Dagster automated workflows
+                      Developed Dockerized tools for CIS Innovation: Dagster automated workflows,
+                      Anaplan API, and Azure Blob API.
                     </li>
                     <li>
-                      Led PowerBI dashboard implementation for Finance Command Center, serving 50+
-                      colleagues in managing 3000+ accounts
+                      As part of Controllership Future of Finance program, developed data wrangling
+                      Python program for automating generation of web application user KPIs.
                     </li>
                     <li>
                       Automated consolidation of Marsh product line data using Python and PowerBI
-                      for weekly leadership reports
+                      for weekly leadership reports.
                     </li>
                   </ul>
                 </div>
@@ -106,14 +106,15 @@ const Page = () => {
                   <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                     <li>
                       Led strategic projects in variance tagging automation, ML renewal modeling,
-                      and ARCS reconciliation
+                      and ARCS reconciliation.
                     </li>
                     <li>
-                      Managed US & Canada FP&A core processes including forecasting and budgeting
+                      Played key role in Marsh US & Canada FP&A core processes including forecasting
+                      and budgeting.
                     </li>
                     <li>
                       Created system tracking $400M+ in net benefits across 20+ internal projects;
-                      presented to C-suite leadership
+                      presented to C-suite leadership.
                     </li>
                   </ul>
                 </div>

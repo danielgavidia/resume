@@ -3,7 +3,7 @@ import profileImage from "../assets/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { contactData } from "@/lib/contactData";
-import { blurb } from "@/lib/blurb";
+import XBlurb from "./XBlurb";
 
 const XLink = ({ icon, link }: { icon: IconDefinition; link: string }) => {
   return (
@@ -41,7 +41,9 @@ const XAbout = () => {
 
       <div className="pb-4 w-full border-b-[0.5px]"></div>
 
-      <div className="text-sm">{blurb}</div>
+      <div className="text-sm">
+        <XBlurb />
+      </div>
     </div>
   );
 };
