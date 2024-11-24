@@ -4,12 +4,12 @@ import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
 const Page = () => {
   return (
-    <Card className="max-w-4xl mx-auto p-8 print:shadow-none border-none">
+    <Card className="max-w-4xl mx-auto p-6 sm:p-8 print:shadow-none border-none">
       <CardContent className="p-0 space-y-3">
         {/* Header */}
-        <div className="text-center space-y-1">
+        <div className="text-center space-y-2">
           <h1 className="text-2xl font-bold tracking-tight">DANIEL GAVIDIA</h1>
-          <p className="text-muted-foreground flex items-center justify-center gap-4 text-sm">
+          <div className="text-muted-foreground flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm">
             <span className="flex items-center gap-1">
               <Mail className="h-4 w-4" />
               dgavidia1@gmail.com
@@ -34,8 +34,10 @@ const Page = () => {
                 linkedin.com/in/danielgavidia1
               </a>
             </span>
-          </p>
+          </div>
         </div>
+
+        <Separator />
 
         {/* Experience Section */}
         <section>
@@ -43,9 +45,9 @@ const Page = () => {
           <div className="space-y-4">
             {/* Fractal Tech */}
             <div>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start items-center">
                 <h3 className="font-bold">FRACTAL TECH | Software Engineer</h3>
-                <span className="text-muted-foreground">2024</span>
+                <span className="text-muted-foreground text-sm">2024</span>
               </div>
               <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                 <li>
@@ -77,9 +79,9 @@ const Page = () => {
 
             {/* Marsh McLennan */}
             <div>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start items-center">
                 <h3 className="font-bold">MARSH MCLENNAN</h3>
-                <span className="text-muted-foreground">2022 - 2024</span>
+                <span className="text-muted-foreground text-sm">2022 - 2024</span>
               </div>
               <div className="mt-2 space-y-4">
                 <div>
@@ -120,9 +122,9 @@ const Page = () => {
 
             {/* Teach for America */}
             <div>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start items-center">
                 <h3 className="font-bold">TEACH FOR AMERICA | Educator</h3>
-                <span className="text-muted-foreground">2017 - 2020</span>
+                <span className="text-muted-foreground text-sm">2017 - 2020</span>
               </div>
               <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
                 <li>
@@ -175,8 +177,8 @@ const Page = () => {
           <h2 className="text-xl font-bold mb-2">EDUCATION</h2>
           <div className="space-y-2 text-sm">
             <div>
-              <div className="flex justify-between items-start">
-                <h3 className="font-bold">MBA | Duke University, Fuqua School of Business</h3>
+              <div className="flex justify-between items-start sm:flex-row sm:justify-between sm:items-start gap-1">
+                <h3 className="font-bold">MBA | Duke University</h3>
                 <span className="text-muted-foreground">2020-2022</span>
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
