@@ -8,7 +8,7 @@ interface XPortfolioItemProps {
 const XPortfolioItem = ({ portfolioItem }: XPortfolioItemProps) => {
   const { title, description, githubLink, deploymentLink } = portfolioItem;
   return (
-    <div className="border-[0.5px] border-gray-200 p-2 rounded-lg shadow:lg flex flex-col space-y-2">
+    <div className="border-[0.5px] border-gray-200 p-2 rounded-lg shadow-lg flex flex-col space-y-4">
       <div className="h-20 w-full bg-gray-200">Thumbnail</div>
       <div className="font-bold text-lg">{title}</div>
       <div className="text-gray-600 text-xs">{description}</div>
