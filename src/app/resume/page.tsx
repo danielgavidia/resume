@@ -45,7 +45,7 @@ const Page = () => {
           <div className="space-y-4">
             {/* Fractal Tech */}
             <div>
-              <div className="flex justify-between items-start items-center">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">FRACTAL TECH | Software Engineer</h3>
                 <span className="text-muted-foreground text-sm">2024</span>
               </div>
@@ -79,7 +79,7 @@ const Page = () => {
 
             {/* Marsh McLennan */}
             <div>
-              <div className="flex justify-between items-start items-center">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">MARSH MCLENNAN</h3>
                 <span className="text-muted-foreground text-sm">2022 - 2024</span>
               </div>
@@ -123,7 +123,7 @@ const Page = () => {
 
             {/* Teach for America */}
             <div>
-              <div className="flex justify-between items-start items-center">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">TEACH FOR AMERICA | Educator</h3>
                 <span className="text-muted-foreground text-sm">2017 - 2020</span>
               </div>
@@ -178,7 +178,7 @@ const Page = () => {
           <h2 className="text-xl font-bold mb-2">EDUCATION</h2>
           <div className="space-y-2 text-sm">
             <div>
-              <div className="flex justify-between items-start sm:flex-row sm:justify-between sm:items-start gap-1">
+              <div className="flex flex-col justify-between items-start sm:flex-row sm:justify-between sm:items-start gap-1">
                 <h3 className="font-bold">MBA | Duke University</h3>
                 <span className="text-muted-foreground">2020-2022</span>
               </div>
@@ -188,7 +188,7 @@ const Page = () => {
               </p>
             </div>
             <div>
-              <div className="flex justify-between items-start">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">BA | University of Southern California</h3>
                 <span className="text-muted-foreground">2013 - 2017</span>
               </div>
