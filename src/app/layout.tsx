@@ -1,3 +1,4 @@
+import XNavbar from "@/components/XNavbar";
 import "./globals.css";
 
 export default function RootLayout({
@@ -8,7 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning className={`antialiased`}>
-        {children}
+        <XNavbar />
+        <div>{children}</div>
       </body>
     </html>
   );
