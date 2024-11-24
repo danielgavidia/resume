@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
-export default function Component() {
+const Page = () => {
   return (
     <Card className="max-w-4xl mx-auto p-8 print:shadow-none border-none">
       <CardContent className="p-0 space-y-3">
@@ -200,4 +200,6 @@ export default function Component() {
       </CardContent>
     </Card>
   );
-}
+};
+
+export default Page;
