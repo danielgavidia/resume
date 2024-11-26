@@ -2,7 +2,7 @@ import { PortfolioItem } from "@/types/types";
 
 export const portfolioData: PortfolioItem[] = [
   {
-    id: "0",
+    id: "4",
     title: "Bouncy Art",
     description:
       "An interactive web application that generates unique live-action art pieces. Users can customize parameters and watch their creations come to life with playful animations.",
@@ -10,7 +10,7 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://bouncy-art.com/",
   },
   {
-    id: "1",
+    id: "3",
     title: "Hangman",
     description:
       "A modern take on the classic Hangman game built with React. Features multiple difficulty levels, word categories, and a sleek user interface with real-time score tracking.",
@@ -18,7 +18,7 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://fractal-hangman.com/",
   },
   {
-    id: "2",
+    id: "1",
     title: "Gavidia Enterprise",
     description:
       "A comprehensive project management platform that helps teams track tasks, manage resources, and collaborate effectively. Built with Next.js and features real-time updates and intuitive dashboards.",
@@ -26,7 +26,7 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://gavidia-enterprise.vercel.app/",
   },
   {
-    id: "3",
+    id: "0",
     title: "Snack Safari",
     description:
       "A food discovery app powered by RAG (Retrieval-Augmented Generation) that enables users to search and chat about international snacks and treats. Features an intelligent chat system that provides detailed information and recommendations based on user preferences.",
@@ -34,7 +34,7 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://snack-safari.vercel.app/",
   },
   {
-    id: "4",
+    id: "2",
     title: "Fringe",
     description:
       "A professional networking platform that combines career connections with social dating features. Matches users based on industry experience, career goals, and personal interests to foster both professional and personal relationships.",
