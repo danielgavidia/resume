@@ -30,7 +30,7 @@ export const portfolioData: PortfolioItem[] = [
     title: "Snack Safari",
     description:
       "A food discovery app powered by RAG (Retrieval-Augmented Generation) that enables users to search and chat about international snacks and treats. Features an intelligent chat system that provides detailed information and recommendations based on user preferences.",
-    githubLink: "https://github.com/danielgavidia/fractal-pm",
+    githubLink: "https://github.com/fractal-bootcamp/snack-safari",
     deploymentLink: "https://snack-safari.vercel.app/",
   },
   {
@@ -38,7 +38,7 @@ export const portfolioData: PortfolioItem[] = [
     title: "Fringe",
     description:
       "A professional networking platform that combines career connections with social dating features. Matches users based on industry experience, career goals, and personal interests to foster both professional and personal relationships.",
-    githubLink: "https://github.com/danielgavidia/fractal-pm",
+    githubLink: "https://github.com/fractal-bootcamp/fringe",
     deploymentLink: "https://fringe-iota.vercel.app/",
   },
   {
@@ -46,7 +46,21 @@ export const portfolioData: PortfolioItem[] = [
     title: "Algorithm Visualizer",
     description:
       "An educational tool that provides interactive visualizations of common algorithms like binary search and quick sort. Helps users understand complex algorithms through step-by-step animations.",
-    githubLink: "https://github.com/danielgavidia/fractal-pm",
+    githubLink: "https://github.com/danielgavidia/fractal-algorithms",
     deploymentLink: "https://fractal-algorithms.vercel.app/",
+  },
+  {
+    id: "6",
+    title: "Open Book Club (Twilio/Shopify Notification System)",
+    description:
+      "A notification system that integrates Twilio and Shopify to enhance customer engagement. It automates notifications for events, ensuring users receive timely and relevant information through SMS.",
+    githubLink: "https://github.com/lizmontesano/Open-Book-Club/pull/1",
+  },
+  {
+    id: "7",
+    title: "Seam (Meme-Generator App)",
+    description:
+      "A fun and interactive meme generator that allows users to create and share their own memes. Users can upload images, add text, and customize their memes.",
+    githubLink: "https://github.com/seam-xyz/Miniapp-Builder/pull/114",
   },
 ];
