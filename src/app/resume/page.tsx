@@ -60,10 +60,10 @@ const Page = () => {
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>
                   <ul>
-                    <li>
+                    {/* <li>
                       <span className="font-semibold">- Sitepass (IoT security): </span>Built Django
                       admin dashboard for site access hardware system
-                    </li>
+                    </li> */}
                     <li>
                       <span className="font-semibold">- Open Book Club (e-commerce): </span>Built
                       Twilio customer notification system; deployed on AWS EC2 crontab
@@ -178,7 +178,7 @@ const Page = () => {
           <h2 className="text-xl font-bold mb-2">EDUCATION</h2>
           <div className="space-y-2 text-sm">
             <div>
-              <div className="flex flex-col justify-between items-start sm:flex-row sm:justify-between sm:items-start gap-1">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">MBA | Duke University</h3>
                 <span className="text-muted-foreground">2020-2022</span>
               </div>

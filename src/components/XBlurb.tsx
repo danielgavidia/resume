@@ -20,8 +20,8 @@ const XBlurb = () => {
         <li>APIs: Stripe, OpenAI, Twilio</li>
       </ul>
       <div>
-        I have a track record of deploying to production with NYC startups: Sitepass (IoT security),
-        Open Book Club (e-commerce), and Seam (social platform).
+        I have a track record of deploying to production with NYC startups: Open Book Club
+        (e-commerce), Seam (social platform).
       </div>
       <div>In short, if you want something built, I can do it.</div>
       <div>
