@@ -6,7 +6,12 @@ const XBlurb = () => {
       <div>Fullstack engineer.</div>
       <div>
         Unique experience combining 1) backend engineering + corporate finance at a Fortune 200
-        <a href="https://www.marshmclennan.com/" className="underline">
+        <a
+          href="https://www.marshmclennan.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
           {" "}
           (Marsh McLennan)
         </a>

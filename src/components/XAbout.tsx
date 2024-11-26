@@ -5,13 +5,27 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { contactData } from "@/lib/contactData";
 import XBlurb from "./XBlurb";
 
-const XLink = ({ icon, link }: { icon: IconDefinition; link: string }) => {
+const XLink = ({
+  icon,
+  link,
+  linkOutside,
+}: {
+  icon: IconDefinition;
+  link: string;
+  linkOutside: boolean;
+}) => {
   return (
     <div className="flex items-center space-x-2 text-xs">
       <div className="w-6">
         <FontAwesomeIcon icon={icon} />
       </div>
-      <div>{link}</div>
+      {linkOutside ? (
+        <a href={`https://${link}`} target="_blank" rel="noopener noreferrer">
+          {link}
+        </a>
+      ) : (
+        <div>{link}</div>
+      )}
     </div>
   );
 };
@@ -33,7 +47,7 @@ const XAbout = () => {
 
           <div>
             {contactData.map((c, key) => (
-              <XLink key={key} icon={c.icon} link={c.link} />
+              <XLink key={key} icon={c.icon} link={c.link} linkOutside={c.linkOutside} />
             ))}
           </div>
         </div>

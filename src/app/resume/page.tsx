@@ -54,8 +54,8 @@ const Page = () => {
                   Built and deployed 10 fullstack apps with 1300+ commits and 350+ pull requests
                 </li>
                 <li>
-                  Key projects: Fringe (Hinge/LinkedIn hybrid), Snack Safari (e-commerce), Gavidia
-                  Enterprise (Jira-style)
+                  Key projects: Snack Safari (e-commerce), Gavidia Enterprise (Jira-style), Fringe
+                  (Hinge/LinkedIn hybrid)
                 </li>
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>
@@ -216,7 +216,14 @@ const Page = () => {
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
                 Full-tuition merit scholarship recipient; created and produced{" "}
-                <strong>Soundstage </strong>
+                <a
+                  href="https://trojanvision.usc.edu/shows/sound-stage/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  <strong>Soundstage</strong>
+                </a>{" "}
                 (live-music TV show that runs to this day)
               </p>
             </div>
