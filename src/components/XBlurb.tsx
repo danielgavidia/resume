@@ -6,8 +6,12 @@ const XBlurb = () => {
       <div>Fullstack engineer.</div>
       <div>
         Unique experience combining 1) backend engineering + corporate finance at a Fortune 200
-        (Marsh McLennan), 2) a Duke MBA (full-ride merit scholarship), and 3) classroom leadership
-        (Teach for America).
+        <a href="https://www.marshmclennan.com/" className="underline">
+          {" "}
+          (Marsh McLennan)
+        </a>
+        , 2) a Duke MBA (full-ride merit scholarship), and 3) classroom leadership (Teach for
+        America).
       </div>
       <div>Specialized in all the tools necessary for building production-grade applications:</div>
       <ul className="list-disc pl-10">
@@ -20,8 +24,25 @@ const XBlurb = () => {
         <li>APIs: Stripe, OpenAI, Twilio</li>
       </ul>
       <div>
-        I have a track record of deploying to production with NYC startups: Open Book Club
-        (e-commerce), Seam (social platform).
+        I have a track record of deploying to production with NYC startups:{" "}
+        <a
+          href="https://getseam.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Seam
+        </a>{" "}
+        (social platform),{" "}
+        <a
+          href="http://www.openbook.nyc/#/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Open Book Club
+        </a>{" "}
+        (e-commerce).
       </div>
       <div>In short, if you want something built, I can do it.</div>
       <div>

@@ -65,12 +65,34 @@ const Page = () => {
                       admin dashboard for site access hardware system
                     </li> */}
                     <li>
-                      <span className="font-semibold">- Open Book Club (e-commerce): </span>Built
-                      Twilio customer notification system; deployed on AWS EC2 crontab
+                      <span className="font-semibold">
+                        -{" "}
+                        <a
+                          href="https://getseam.xyz/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline"
+                        >
+                          Seam
+                        </a>{" "}
+                        (social platform):{" "}
+                      </span>
+                      Built React meme generator app for mobile; deployed on App Store
                     </li>
                     <li>
-                      <span className="font-semibold">- Seam (social platform): </span>Built React
-                      meme generator app for mobile; deployed on App Store
+                      <span className="font-semibold">
+                        -{" "}
+                        <a
+                          href="http://www.openbook.nyc/#/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline"
+                        >
+                          Open Book Club
+                        </a>{" "}
+                        (e-commerce):{" "}
+                      </span>
+                      Built Twilio customer notification system; deployed on AWS EC2 crontab
                     </li>
                   </ul>
                 </li>
