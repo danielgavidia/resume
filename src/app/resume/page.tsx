@@ -54,23 +54,45 @@ const Page = () => {
                   Built and deployed 10 fullstack apps with 1300+ commits and 350+ pull requests
                 </li>
                 <li>
-                  Key projects: Fringe (Hinge/LinkedIn hybrid), Snack Safari (e-commerce), Gavidia
-                  Enterprise (Jira-style)
+                  Key projects: Snack Safari (e-commerce), Gavidia Enterprise (Jira-style), Fringe
+                  (Hinge/LinkedIn hybrid)
                 </li>
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>
                   <ul>
-                    <li>
+                    {/* <li>
                       <span className="font-semibold">- Sitepass (IoT security): </span>Built Django
                       admin dashboard for site access hardware system
+                    </li> */}
+                    <li>
+                      <span className="font-semibold">
+                        -{" "}
+                        <a
+                          href="https://getseam.xyz/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline"
+                        >
+                          Seam
+                        </a>{" "}
+                        (social platform):{" "}
+                      </span>
+                      Built React meme generator app for mobile; deployed on App Store
                     </li>
                     <li>
-                      <span className="font-semibold">- Open Book Club (e-commerce): </span>Built
-                      Twilio customer notification system; deployed on AWS EC2 crontab
-                    </li>
-                    <li>
-                      <span className="font-semibold">- Seam (social platform): </span>Built React
-                      meme generator app for mobile; deployed on App Store
+                      <span className="font-semibold">
+                        -{" "}
+                        <a
+                          href="http://www.openbook.nyc/#/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline"
+                        >
+                          Open Book Club
+                        </a>{" "}
+                        (e-commerce):{" "}
+                      </span>
+                      Built Twilio customer notification system; deployed on AWS EC2 crontab
                     </li>
                   </ul>
                 </li>
@@ -178,7 +200,7 @@ const Page = () => {
           <h2 className="text-xl font-bold mb-2">EDUCATION</h2>
           <div className="space-y-2 text-sm">
             <div>
-              <div className="flex flex-col justify-between items-start sm:flex-row sm:justify-between sm:items-start gap-1">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">MBA | Duke University</h3>
                 <span className="text-muted-foreground">2020-2022</span>
               </div>
@@ -194,7 +216,14 @@ const Page = () => {
               </div>
               <p className="ml-5 mt-1 text-muted-foreground">
                 Full-tuition merit scholarship recipient; created and produced{" "}
-                <strong>Soundstage </strong>
+                <a
+                  href="https://trojanvision.usc.edu/shows/sound-stage/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  <strong>Soundstage</strong>
+                </a>{" "}
                 (live-music TV show that runs to this day)
               </p>
             </div>
