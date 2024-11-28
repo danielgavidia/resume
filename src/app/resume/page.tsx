@@ -54,8 +54,8 @@ const Page = () => {
                   Built and deployed 10 fullstack apps with 1300+ commits and 350+ pull requests
                 </li>
                 <li>
-                  Key projects: Snack Safari (e-commerce), Gavidia Enterprise (Jira-style), Fringe
-                  (Hinge/LinkedIn hybrid)
+                  Key projects: Snack Safari (e-commerce), Gavidia Enterprise (Jira-style), Bouncy
+                  Art (Social media/Art generation)
                 </li>
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>

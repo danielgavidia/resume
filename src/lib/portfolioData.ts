@@ -2,7 +2,7 @@ import { PortfolioItem } from "@/types/types";
 
 export const portfolioData: PortfolioItem[] = [
   {
-    id: "4",
+    id: "3",
     title: "Bouncy Art",
     description:
       "An interactive web application that generates unique live-action art pieces. Users can customize parameters and watch their creations come to life with playful animations.",
@@ -10,7 +10,7 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://bouncy-art.com/",
   },
   {
-    id: "3",
+    id: "4",
     title: "Hangman",
     description:
       "A modern take on the classic Hangman game built with React. Features multiple difficulty levels, word categories, and a sleek user interface with real-time score tracking.",
@@ -33,14 +33,14 @@ export const portfolioData: PortfolioItem[] = [
     githubLink: "https://github.com/fractal-bootcamp/snack-safari",
     deploymentLink: "https://snack-safari.vercel.app/",
   },
-  {
-    id: "2",
-    title: "Fringe",
-    description:
-      "A professional networking platform that combines career connections with social dating features. Matches users based on industry experience, career goals, and personal interests to foster both professional and personal relationships.",
-    githubLink: "https://github.com/fractal-bootcamp/fringe",
-    deploymentLink: "https://fringe-iota.vercel.app/",
-  },
+  // {
+  //   id: "2",
+  //   title: "Fringe",
+  //   description:
+  //     "A professional networking platform that combines career connections with social dating features. Matches users based on industry experience, career goals, and personal interests to foster both professional and personal relationships.",
+  //   githubLink: "https://github.com/fractal-bootcamp/fringe",
+  //   deploymentLink: "https://fringe-iota.vercel.app/",
+  // },
   {
     id: "5",
     title: "Algorithm Visualizer",
