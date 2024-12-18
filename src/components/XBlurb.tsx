@@ -31,12 +31,21 @@ const XBlurb = () => {
       <div>
         I have a track record of deploying to production with NYC startups:{" "}
         <a
+          href="http://studio.mixpeek.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Mixpeek
+        </a>{" "}
+        (multimodal AI RAG),{" "}
+        <a
           href="https://getseam.xyz/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          Seam
+          Seam,
         </a>{" "}
         (social platform),{" "}
         <a

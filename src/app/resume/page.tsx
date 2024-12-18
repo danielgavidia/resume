@@ -60,10 +60,21 @@ const Page = () => {
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>
                   <ul>
-                    {/* <li>
-                      <span className="font-semibold">- Sitepass (IoT security): </span>Built Django
-                      admin dashboard for site access hardware system
-                    </li> */}
+                    <li>
+                      <span className="font-semibold">
+                        -{" "}
+                        <a
+                          href="https://studio.mixpeek.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline"
+                        >
+                          Mixpeek
+                        </a>{" "}
+                        (multimodal AI RAG):{" "}
+                      </span>
+                      Built user dashboard with multimodal AI RAG functionality
+                    </li>
                     <li>
                       <span className="font-semibold">
                         -{" "}
