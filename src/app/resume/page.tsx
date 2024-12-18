@@ -42,7 +42,7 @@ const Page = () => {
         {/* Experience Section */}
         <section>
           <h2 className="text-xl font-bold mb-2">EXPERIENCE</h2>
-          <div className="space-y-4">
+          <div className="space-y-3">
             {/* Fractal Tech */}
             <div>
               <div className="flex flex-col sm:flex-row justify-between items-start">
@@ -116,7 +116,7 @@ const Page = () => {
                 <h3 className="font-bold">MARSH MCLENNAN</h3>
                 <span className="text-muted-foreground text-sm">2022 - 2024</span>
               </div>
-              <div className="mt-2 space-y-4">
+              <div className="mt-2 space-y-3">
                 <div>
                   <h4 className="font-semibold">Backend Engineer (2022-2024)</h4>
                   <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
@@ -176,7 +176,7 @@ const Page = () => {
         {/* Tech Stack Section */}
         <section>
           <h2 className="text-xl font-bold mb-2">TECH STACK</h2>
-          <div className="space-y-1 text-muted-foreground text-sm">
+          <div className="text-muted-foreground text-sm">
             <p>
               <span className="font-semibold">Frontend:</span> React, Next.js, Tailwind CSS,
               Zustand, Shadcn, Vite, DaisyUI
@@ -209,15 +209,15 @@ const Page = () => {
         {/* Education Section */}
         <section>
           <h2 className="text-xl font-bold mb-2">EDUCATION</h2>
-          <div className="space-y-2 text-sm">
+          <div className="space-y-1 text-sm">
             <div>
               <div className="flex flex-col sm:flex-row justify-between items-start">
                 <h3 className="font-bold">MBA | Duke University</h3>
                 <span className="text-muted-foreground">2020-2022</span>
               </div>
-              <p className="ml-5 mt-1 text-muted-foreground">
-                Full-tuition merit scholarship recipient; Finance Club cabinet; interned with
-                CloudFactory (presented to C-suite)
+              <p className="ml-2 mt-1 text-muted-foreground">
+                Full-tuition merit scholarship; Finance Club cabinet; interned with CloudFactory
+                (presented to C-suite)
               </p>
             </div>
             <div>
@@ -225,8 +225,8 @@ const Page = () => {
                 <h3 className="font-bold">BA | University of Southern California</h3>
                 <span className="text-muted-foreground">2013 - 2017</span>
               </div>
-              <p className="ml-5 mt-1 text-muted-foreground">
-                Full-tuition merit scholarship recipient; created and produced{" "}
+              <p className="ml-2 mt-1 text-muted-foreground">
+                Full-tuition merit scholarship; created and produced{" "}
                 <a
                   href="https://trojanvision.usc.edu/shows/sound-stage/"
                   target="_blank"
