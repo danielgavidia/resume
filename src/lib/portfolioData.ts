@@ -1,22 +1,22 @@
 import { PortfolioItem } from "@/types/types";
 
 export const portfolioData: PortfolioItem[] = [
-  {
-    id: "3",
-    title: "Bouncy Art",
-    description:
-      "An interactive web application that generates unique live-action art pieces. Users can customize parameters and watch their creations come to life with playful animations.",
-    githubLink: "https://github.com/danielgavidia/fractal-ai-art",
-    deploymentLink: "https://bouncy-art.com/",
-  },
-  {
-    id: "4",
-    title: "Hangman",
-    description:
-      "A modern take on the classic Hangman game built with React. Features multiple difficulty levels, word categories, and a sleek user interface with real-time score tracking.",
-    githubLink: "https://github.com/danielgavidia/fractal-hangman",
-    deploymentLink: "https://fractal-hangman.com/",
-  },
+  // {
+  //   id: "3",
+  //   title: "Bouncy Art",
+  //   description:
+  //     "An interactive web application that generates unique live-action art pieces. Users can customize parameters and watch their creations come to life with playful animations.",
+  //   githubLink: "https://github.com/danielgavidia/fractal-ai-art",
+  //   deploymentLink: "https://bouncy-art.com/",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Hangman",
+  //   description:
+  //     "A modern take on the classic Hangman game built with React. Features multiple difficulty levels, word categories, and a sleek user interface with real-time score tracking.",
+  //   githubLink: "https://github.com/danielgavidia/fractal-hangman",
+  //   deploymentLink: "https://fractal-hangman.com/",
+  // },
   {
     id: "1",
     title: "Gavidia Enterprise",
@@ -42,7 +42,15 @@ export const portfolioData: PortfolioItem[] = [
   //   deploymentLink: "https://fringe-iota.vercel.app/",
   // },
   {
-    id: "5",
+    id: "3",
+    title: "Mixpeek",
+    description:
+      "Developed a sophisticated user dashboard featuring multimodal AI RAG (Retrieval-Augmented Generation) functionality. The system processes and analyzes various data types including text, images, and documents, enabling intelligent search and content generation. Implemented real-time data processing and visualization capabilities for enhanced user interaction.",
+    githubLink: "https://github.com/mixpeek/studio",
+    deploymentLink: "https://auth.mixpeek.com/en/login",
+  },
+  {
+    id: "2",
     title: "Algorithm Visualizer",
     description:
       "An educational tool that provides interactive visualizations of common algorithms like binary search and quick sort. Helps users understand complex algorithms through step-by-step animations.",
@@ -50,14 +58,14 @@ export const portfolioData: PortfolioItem[] = [
     deploymentLink: "https://fractal-algorithms.vercel.app/",
   },
   {
-    id: "6",
+    id: "4",
     title: "Open Book Club (Twilio/Shopify Notification System)",
     description:
       "A notification system that integrates Twilio and Shopify to enhance customer engagement. It automates notifications for events, ensuring users receive timely and relevant information through SMS.",
     githubLink: "https://github.com/lizmontesano/Open-Book-Club/pull/1",
   },
   {
-    id: "7",
+    id: "5",
     title: "Seam (Meme-Generator App)",
     description:
       "A fun and interactive meme generator that allows users to create and share their own memes. Users can upload images, add text, and customize their memes.",
