@@ -46,7 +46,7 @@ const Page = () => {
             {/* ESA */}
             <div>
               <div className="flex flex-col sm:flex-row justify-between items-start">
-                <h3 className="font-bold">ESAI | Software Engineer</h3>
+                <h3 className="font-bold">ESAI | Founding Engineer</h3>
                 <span className="text-muted-foreground text-sm">2025 - Present</span>
               </div>
               <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
