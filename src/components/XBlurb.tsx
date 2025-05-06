@@ -5,33 +5,28 @@ const XBlurb = () => {
     <div className="flex flex-col space-y-2">
       <div>Fullstack engineer.</div>
       <div>
-        Unique experience combining 1) backend engineering + corporate finance at a Fortune 200
+        Unique experience combining 1) software engineering at{" "}
+        <a href="https://esai.ai" target="_blank" rel="noopener noreferrer" className="underline">
+          ESAI
+        </a>{" "}
+        and{" "}
         <a
           href="https://www.marshmclennan.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          {" "}
-          (Marsh McLennan)
+          Marsh McLennan
         </a>
         , 2) a Duke MBA (full-ride merit scholarship), and 3) classroom leadership (Teach for
         America).
       </div>
-      <div>Specialized in all the tools necessary for building production-grade applications:</div>
-      <ul className="list-disc pl-10">
-        <li>Fullstack frameworks: Next, Django</li>
-        <li>Backend engineering in both TS and Python: Node, Express, FastAPI, Dagster</li>
-        <li>Databases: Prisma, Redis, SQL</li>
-        <li>Auth: Firebase, Clerk, PropelAuth</li>
-        <li>Deployment: VPS, AWS EC2/S3, Github Actions, Vercel, Docker</li>
-        <li>Testing: Vitest, Storybook, Postman</li>
-        <li>APIs: Stripe, OpenAI, Twilio</li>
-      </ul>
       <div>
-        I have a track record of deploying to production with NYC startups:{" "}
+        At ESAI, I&apos;ve led major infrastructure projects including AWS migration, analytics
+        architecture, and full-stack feature development. Previously built and deployed production
+        apps with NYC startups:{" "}
         <a
-          href="http://studio.mixpeek.com/"
+          href="https://docs.mixpeek.com/overview/introduction"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
@@ -45,9 +40,9 @@ const XBlurb = () => {
           rel="noopener noreferrer"
           className="underline"
         >
-          Seam,
+          Seam
         </a>{" "}
-        (social platform),{" "}
+        (social platform), and{" "}
         <a
           href="http://www.openbook.nyc/#/"
           target="_blank"
@@ -58,9 +53,18 @@ const XBlurb = () => {
         </a>{" "}
         (e-commerce).
       </div>
-      <div>In short, if you want something built, I can do it.</div>
+      <div>Specialized in modern full-stack development with:</div>
+      <ul className="list-disc pl-10">
+        <li>Frontend: Next.js, React, Tailwind, Zustand</li>
+        <li>Backend: Node, Express, FastAPI, Django, Docker</li>
+        <li>Data & Analytics: Tableau, Google Analytics, Grafana Loki</li>
+        <li>Infrastructure: AWS (EC2/RDS/Secrets Manager), Github Actions</li>
+        <li>Databases: PostgreSQL, Redis, Prisma</li>
+        <li>APIs: OpenAI, Stripe, Klaviyo, Twilio</li>
+      </ul>
       <div>
-        Seeking to join an early-stage startup to build impactful products and drive growth.
+        I love taking applications from 0 to 1, driving growth through technical innovation, and
+        building impactful products.
       </div>
     </div>
   );

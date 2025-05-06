@@ -43,6 +43,28 @@ const Page = () => {
         <section>
           <h2 className="text-xl font-bold mb-2">EXPERIENCE</h2>
           <div className="space-y-3">
+            {/* ESA */}
+            <div>
+              <div className="flex flex-col sm:flex-row justify-between items-start">
+                <h3 className="font-bold">ESAI | Software Engineer</h3>
+                <span className="text-muted-foreground text-sm">2025 - Present</span>
+              </div>
+              <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
+                <li>
+                  Led migration to AWS (EC2/RDS/Secrets Manager) and optimized CI/CD pipeline while
+                  consolidating dual backends, eliminating 4K+ lines of tech debt
+                </li>
+                <li>
+                  Architected company&apos;s analytics infrastructure with Tableau dashboards,
+                  AI-powered data scrapers, and Google Analytics/Stripe integration
+                </li>
+                <li>
+                  Developed key full-stack features including dynamic filtering system, Klaviyo
+                  integrations, mobile UI revamps, and enterprise logging with Grafana Loki
+                </li>
+              </ul>
+            </div>
+
             {/* Fractal Tech */}
             <div>
               <div className="flex flex-col sm:flex-row justify-between items-start">
@@ -53,7 +75,6 @@ const Page = () => {
                 <li>
                   Built and deployed 10 fullstack apps with 1300+ commits and 350+ pull requests
                 </li>
-                <li>Key projects: Snack Safari (e-commerce), Gavidia Enterprise (Jira-style)</li>
                 <li>
                   <div className="mb-2">Deployed to production with NYC startups:</div>
                   <ul>
@@ -110,45 +131,23 @@ const Page = () => {
             {/* Marsh McLennan */}
             <div>
               <div className="flex flex-col sm:flex-row justify-between items-start">
-                <h3 className="font-bold">MARSH MCLENNAN</h3>
+                <h3 className="font-bold">MARSH MCLENNAN | Backend Engineer + Finance Associate</h3>
                 <span className="text-muted-foreground text-sm">2022 - 2024</span>
               </div>
-              <div className="mt-2 space-y-3">
-                <div>
-                  <h4 className="font-semibold">Backend Engineer (2022-2024)</h4>
-                  <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
-                    <li>
-                      Developed Dockerized tools for CIS Innovation: Dagster automated workflows,
-                      Anaplan API, and Azure Blob API.
-                    </li>
-                    <li>
-                      As part of Controllership Future of Finance program, developed data wrangling
-                      Python program for automating generation of web application user KPIs.
-                    </li>
-                    <li>
-                      Automated consolidation of Marsh product line data using Python and PowerBI
-                      for weekly leadership reports.
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold">Finance Associate (2022-2024)</h4>
-                  <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
-                    <li>
-                      Led strategic projects in variance tagging automation, ML renewal modeling,
-                      and ARCS reconciliation.
-                    </li>
-                    <li>
-                      Played key role in Marsh US & Canada FP&A core processes including forecasting
-                      and budgeting.
-                    </li>
-                    <li>
-                      Created system tracking $400M+ in net benefits across 20+ internal projects;
-                      presented to C-suite leadership.
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <ul className="list-disc ml-5 mt-1 text-muted-foreground text-sm">
+                <li>
+                  Built enterprise data pipeline infrastructure using Docker, Dagster, and Azure
+                  Blob API, automating workflows for CIS Innovation team
+                </li>
+                <li>
+                  Developed Python automation suite for web application KPIs and product line
+                  analytics, powering leadership reporting dashboards
+                </li>
+                <li>
+                  Led implementations for ML-based renewal modeling and variance tagging automation
+                  systems
+                </li>
+              </ul>
             </div>
 
             {/* Teach for America */}
@@ -176,15 +175,15 @@ const Page = () => {
           <div className="text-muted-foreground text-sm">
             <p>
               <span className="font-semibold">Frontend:</span> React, Next.js, Tailwind CSS,
-              Zustand, Shadcn, Vite, DaisyUI
+              Zustand, Shadcn, Vite, DaisyUI, Strapi
             </p>
             <p>
               <span className="font-semibold">Backend:</span> Node.js, Express, FastAPI, Bun,
-              Docker, Django, Dagster, Bash, Crontab, Puppetteer
+              Docker, Django, Dagster, Bash, Crontab, Puppeteer, Nginx
             </p>
             <p>
               <span className="font-semibold">Database & Auth:</span> Redis, PostgreSQL, Prisma,
-              Supabase, Neon, Firebase, Clerk, PropelAuth
+              Supabase, Neon, Firebase, Clerk, PropelAuth, AWS RDS, AWS Secrets Manager
             </p>
             <p>
               <span className="font-semibold">Deployment:</span> Hostinger VPS, Render, Railway,
@@ -192,11 +191,11 @@ const Page = () => {
             </p>
             <p>
               <span className="font-semibold">Testing & APIs:</span> Vitest, Storybook, Postman,
-              Stripe, Twilio, OpenAI, Shopify GraphQL, Discord, Github API
+              Stripe, Twilio, OpenAI, Klaviyo, Shopify GraphQL, Discord, Github API
             </p>
             <p>
-              <span className="font-semibold">Business Intelligence:</span> PowerBI, QlikSense,
-              Oracle Hyperion, Anaplan, Dremio
+              <span className="font-semibold">Monitoring & Analytics:</span> Grafana Loki, Tableau,
+              Google Analytics, Mixpanel, PowerBI, QlikSense
             </p>
           </div>
         </section>

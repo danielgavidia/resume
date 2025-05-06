@@ -54,13 +54,13 @@ const XNavbar = () => {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           href={`/portfolio`}
           onClick={() => setIsMenuOpen(false)}
           className="bg-black text-white px-4 py-2 transition-colors duration-200 hover:bg-red-800 rounded-xl flex items-center justify-center"
         >
           Portfolio
-        </Link>
+        </Link> */}
         <Link
           href={`/resume`}
           onClick={() => setIsMenuOpen(false)}
