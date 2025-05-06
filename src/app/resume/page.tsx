@@ -144,7 +144,7 @@ const Page = () => {
                   analytics, powering leadership reporting dashboards
                 </li>
                 <li>
-                  Led strategic technical implementations for ML-based renewal modeling and variance
+                  Led implementations for ML-based renewal modeling and variance
                   tagging automation systems
                 </li>
               </ul>
