@@ -22,7 +22,7 @@ const XBlurb = () => {
         America).
       </div>
       <div>
-        At ESAI, I've led major infrastructure projects including AWS migration, analytics
+        At ESAI, I&apos;ve led major infrastructure projects including AWS migration, analytics
         architecture, and full-stack feature development. Previously built and deployed production
         apps with NYC startups:{" "}
         <a

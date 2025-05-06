@@ -55,8 +55,8 @@ const Page = () => {
                   consolidating dual backends, eliminating 4K+ lines of tech debt
                 </li>
                 <li>
-                  Architected company's analytics infrastructure with Tableau dashboards, AI-powered
-                  data scrapers, and Google Analytics/Stripe integration
+                  Architected company&apos;s analytics infrastructure with Tableau dashboards,
+                  AI-powered data scrapers, and Google Analytics/Stripe integration
                 </li>
                 <li>
                   Developed key full-stack features including dynamic filtering system, Klaviyo
@@ -144,8 +144,8 @@ const Page = () => {
                   analytics, powering leadership reporting dashboards
                 </li>
                 <li>
-                  Led implementations for ML-based renewal modeling and variance
-                  tagging automation systems
+                  Led implementations for ML-based renewal modeling and variance tagging automation
+                  systems
                 </li>
               </ul>
             </div>
